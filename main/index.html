@@ -9,15 +9,16 @@
 <body>
     <div class="container">
         <span>
-            <button>roll</button><input class="" type="text">Dice
+            <button onclick="rollDice()">roll</button><input class="diceNum" type="text">Dice
         </span>
+        <p class="rolls"></p>
         <hr>
-        <span><button>Average</button><button>total</button></span>
+        <span><button onclick="averageDice()">Average</button><button onclick="totalDice">total</button></span>
     </div>
-    <p>Average: <span class=""average></span><br>Total: <span class="total"></span></p>
-    
+    <p>Average: <span class="average"></span><br>Total: <span class="total"></span></p>
+    <BUTTON onclick="reset()">reset</BUTTON>
 
     
-    <script src="" defer></script>
+    <script src="./index.js" defer></script>
 </body>
 </html>
